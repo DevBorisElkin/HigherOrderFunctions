@@ -11,7 +11,15 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        //CodeExecutionClass.filterExample()
+        //CodeExecutionClass.filterDetailedExample()
+        
+        //CodeExecutionClass.mapExample()
+        //CodeExecutionClass.mapDetailedExample()
+        
+        //CodeExecutionClass.reduceExample()
+        CodeExecutionClass.reduceDetailedExample()
     }
 
 
