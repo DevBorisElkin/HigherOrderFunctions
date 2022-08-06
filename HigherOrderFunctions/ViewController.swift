@@ -28,7 +28,9 @@ class ViewController: UIViewController {
         //CodeExecutionClass.flatMapExample()
         
         //CodeExecutionClass.sortSortedExample()
-        CodeExecutionClass.sortSortedDetailedExample()
+        //CodeExecutionClass.sortSortedDetailedExample()
+        
+        CodeExecutionClass.miscTests()
     }
 }
 

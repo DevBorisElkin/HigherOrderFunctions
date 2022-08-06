@@ -10,7 +10,7 @@ import Foundation
 class CodeExecutionClass {
     
     // MARK: ALL TESTED HIGHER ORDER FUNCTIONS:
-    // MARK: Filter, Map, Reduce, ForEach, CompactMap, FlatMap, Sort, Sorted
+    // MARK: Filter, Map, Reduce, ForEach, CompactMap, FlatMap, Sort, Sorted, Contains, RemoveAll, First
     static func filterExample(){
         print(#function)
         
@@ -253,6 +253,38 @@ class CodeExecutionClass {
         })
         
         print("Individuals by work experience: \(individualsSortedByWorkExperience)")
+    }
+    
+    static func miscTests(){
+        print(#function)
+        
+        var individuals = [Person(name: "John", age: 13, sex: .Male),
+                           Person(name: "kate", age: 22, sex: .Female),
+                           Person(name: "Sarah", age: 35, sex: .Female),
+                           Person(name: "Peter", age: 55, sex: .Male),
+                           Person(name: "Bob", age: 6, sex: .Male),
+                           Person(name: "Arnold", age: 18, sex: .Male)]
+        
+        var hasAnAdult = individuals.contains { person in
+            person.isAdult()
+        }
+        
+        individuals.removeAll { person in
+            !person.isAdult()
+        }
+        
+        var optionalIndividuals: [Person?] = individuals
+        
+        var fistIndividualWithSufficientWorkExperience = individuals.first { person in
+            person.workExp() > 5
+        }
+        
+        
+        
+        print("All adults: \(individuals)")
+        
+        print("At least one of people is adult: \(hasAnAdult)")
+        
     }
     
 }

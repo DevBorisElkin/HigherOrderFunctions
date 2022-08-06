@@ -19,4 +19,8 @@ struct Person {
     func workExp() -> Int {
         return age > 18 ? age - 18 : 0
     }
+    
+    func isAdult() -> Bool {
+        return age >= 18
+    }
 }
