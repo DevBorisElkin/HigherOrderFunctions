@@ -15,4 +15,8 @@ struct Person {
     var name: String
     var age: Int
     var sex: Sex
+    
+    func workExp() -> Int {
+        return age > 18 ? age - 18 : 0
+    }
 }

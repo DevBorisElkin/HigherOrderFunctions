@@ -17,11 +17,18 @@ class ViewController: UIViewController {
         
         //CodeExecutionClass.mapExample()
         //CodeExecutionClass.mapDetailedExample()
+        //CodeExecutionClass.mapDictionary()
         
         //CodeExecutionClass.reduceExample()
-        CodeExecutionClass.reduceDetailedExample()
+        //CodeExecutionClass.reduceDetailedExample()
+        
+        //CodeExecutionClass.forEachExample()
+        
+        //CodeExecutionClass.compactMapExample()
+        //CodeExecutionClass.flatMapExample()
+        
+        //CodeExecutionClass.sortSortedExample()
+        CodeExecutionClass.sortSortedDetailedExample()
     }
-
-
 }
 
