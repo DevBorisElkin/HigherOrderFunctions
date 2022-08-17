@@ -11,7 +11,7 @@ enum Sex {
     case Male, Female
 }
 
-struct Person {
+struct Person: Hashable {
     var name: String
     var age: Int
     var sex: Sex

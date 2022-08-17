@@ -138,6 +138,31 @@ class CodeExecutionClass {
         print("combinedWorkExperience: \(combinedWorkExperience)")
     }
     
+    static func reduceArrayToDictionary(){
+        print(#function)
+        
+        var individuals = [Person(name: "John", age: 13, sex: .Male),
+                           Person(name: "kate", age: 22, sex: .Female),
+                           Person(name: "Sarah", age: 35, sex: .Female),
+                           Person(name: "Peter", age: 55, sex: .Male),
+                           Person(name: "Bob", age: 6, sex: .Male),
+                           Person(name: "Arnold", age: 18, sex: .Male)]
+        print("Initial list of individuals: \(individuals)")
+        
+        // конвертировать массив в dictionary в несколько строк
+//        var individualsDict: [String : Int] = individuals.reduce(into: [String : Int]()) { partialResult, individual in
+//            partialResult[individual.name] = individual.age
+//        }
+        // в 1 строчку конвертировать массив в dictionary
+        var individualsDict = individuals.reduce(into: [String : Int]()) { $0[$1.name] = $1.age }
+        
+        print("individualsDict: \(individualsDict)")
+        
+        for keyValuePair in individualsDict {
+            print("[\(keyValuePair.key)] == \(keyValuePair.value)")
+        }
+    }
+    
     // MARK: FOR-EACH EXAMPLE
     static func forEachExample(){
         print(#function)

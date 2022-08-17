@@ -21,6 +21,7 @@ class ViewController: UIViewController {
         
         //CodeExecutionClass.reduceExample()
         //CodeExecutionClass.reduceDetailedExample()
+        CodeExecutionClass.reduceArrayToDictionary()
         
         //CodeExecutionClass.forEachExample()
         
@@ -30,7 +31,7 @@ class ViewController: UIViewController {
         //CodeExecutionClass.sortSortedExample()
         //CodeExecutionClass.sortSortedDetailedExample()
         
-        CodeExecutionClass.miscTests()
+        //CodeExecutionClass.miscTests()
     }
 }
 
