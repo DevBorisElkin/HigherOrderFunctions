@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5236A0DF28AD0EED00F9A699 /* WorkingWithOptional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236A0DE28AD0EED00F9A699 /* WorkingWithOptional.swift */; };
 		52619707289D9EB8008A35E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52619706289D9EB8008A35E5 /* AppDelegate.swift */; };
 		52619709289D9EB8008A35E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52619708289D9EB8008A35E5 /* SceneDelegate.swift */; };
 		5261970B289D9EB8008A35E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5261970A289D9EB8008A35E5 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5236A0DE28AD0EED00F9A699 /* WorkingWithOptional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingWithOptional.swift; sourceTree = "<group>"; };
 		52619703289D9EB8008A35E5 /* HigherOrderFunctions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HigherOrderFunctions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52619706289D9EB8008A35E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52619708289D9EB8008A35E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				52619714289D9EBA008A35E5 /* Info.plist */,
 				5261970A289D9EB8008A35E5 /* ViewController.swift */,
 				5261971A289D9FDC008A35E5 /* CodeExecutionClass.swift */,
+				5236A0DE28AD0EED00F9A699 /* WorkingWithOptional.swift */,
 			);
 			path = HigherOrderFunctions;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 				5261971E289DAC31008A35E5 /* Person.swift in Sources */,
 				52619720289DAC69008A35E5 /* Human.swift in Sources */,
 				5261971B289D9FDC008A35E5 /* CodeExecutionClass.swift in Sources */,
+				5236A0DF28AD0EED00F9A699 /* WorkingWithOptional.swift in Sources */,
 				5261970B289D9EB8008A35E5 /* ViewController.swift in Sources */,
 				52619707289D9EB8008A35E5 /* AppDelegate.swift in Sources */,
 				52619709289D9EB8008A35E5 /* SceneDelegate.swift in Sources */,
